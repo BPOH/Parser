@@ -5,7 +5,7 @@ import textwrap
 import os
 
 
-os.system("clear")
+os.system('cls||clear')
 print('=' * 50)
 print("New Yourk Times")
 print('=' * 50)
@@ -16,7 +16,7 @@ nav = input("1 = Мировые новости \n"
             "5 = Бизнесс \n")
 
 if nav == '1':
-    os.system("clear")
+    os.system('cls||clear')
     nav = input("1 = Африка \n"
                 "2 = Америка \n"
                 "3 = Азия \n"
@@ -41,12 +41,12 @@ if nav == '1':
 elif nav == '2':
     link = "https://www.nytimes.com/section/us"
 elif nav == '3':
-    os.system("clear")
+    os.system('cls||clear')
     link = "https://www.nytimes.com/section/politics"
 elif nav == '4':
     link = "https://www.nytimes.com/section/nyregion"
 elif nav == '5':
-    os.system("clear")
+    os.system('cls||clear')
     nav = input("1 = Книга сделок \n"
                 "2 = Экономика \n"
                 "3 = Энергия \n"
@@ -128,5 +128,5 @@ def get_page_data(link):
 
 
 
-os.system("clear")
+os.system('cls||clear')
 get_page_data(link)
